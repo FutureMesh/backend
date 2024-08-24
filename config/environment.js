@@ -1,3 +1,3 @@
-module.exports = Object.freeze({
+module.exports = {
   port: 8080,
-});
+};

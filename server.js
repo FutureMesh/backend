@@ -5,8 +5,10 @@ const loadApplication = require('./lib/loader');
 const initPlugins = require('./plugins/index.js');
 const ws = require('./lib/ws');
 const http = require('./lib/http');
+const dotenv = require('dotenv');
 
 const fastify = require('fastify')({ logger: true });
+dotenv.config();
 
 (async () => {
   const { api, config } = await loadApplication();
