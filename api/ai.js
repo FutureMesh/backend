@@ -3,10 +3,10 @@
 module.exports = {
   ask: {
     type: 'post',
-    handler: async ({ question, fastify }) => {
+    handler: async ({ form, fastify }) => {
       const chat = fastify.openai.createChat();
-      const response = await chat.message({ text: question });
-      return { reply: response };
+      const answer = await chat.message({ text: form.question });
+      return { answer };
     },
   },
 };

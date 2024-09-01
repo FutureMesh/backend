@@ -3,6 +3,7 @@
     "strict": [
       "error",
       "never"
-    ]
+    ],
+    "max-len": "off"
   }
 }

@@ -1,0 +1,124 @@
+{
+  "name": "Future Prediction",
+  "fields": [
+    {
+      "name": "Name",
+      "description": "The full name of the person",
+      "type": "text"
+    },
+    {
+      "name": "Birthdate",
+      "description": "Date of birth of the person",
+      "type": "date"
+    },
+    {
+      "name": "Gender",
+      "description": "Gender identity of the person",
+      "type": "text"
+    },
+    {
+      "name": "Religion",
+      "description": "Religious beliefs of the person",
+      "type": "choice",
+      "choices": {
+        "Christian": {
+          "name": "Christian",
+          "type": "text"
+        },
+        "Muslim": {
+          "name": "Muslim",
+          "type": "text"
+        },
+        "Hindu": {
+          "name": "Hindu",
+          "type": "text"
+        },
+        "Buddhist": {
+          "name": "Buddhist",
+          "type": "text"
+        },
+        "Jewish": {
+          "name": "Jewish",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Other",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Education",
+      "description": "Education of the person",
+      "type": "choice",
+      "choices": {
+        "School": {
+          "name": "School",
+          "type": "text"
+        },
+        "University/College": {
+          "name": "What is your specialization?",
+          "type": "imput"
+        }
+      }
+    },
+    {
+      "name": "Hobbies and Interests",
+      "description": "Activities the person enjoys during leisure time",
+      "type": "input"
+    },
+    {
+      "name": "Nationality",
+      "type": "text",
+      "description": "Nationality of the person"
+    },
+    {
+      "name": "Country",
+      "description": "Place of residence",
+      "type": "text"
+    },
+    {
+      "name": "Character",
+      "description": "Describtion of the character",
+      "type": "input"
+    },
+    {
+      "name": "Relationships",
+      "description": "Relationships with others",
+      "type": "choice",
+      "choices": {
+        "single": {
+          "name": "Single",
+          "type": "text"
+        },
+        "married": {
+          "name": "Married",
+          "type": "text"
+        },
+        "divorced": {
+          "name": "Divorced",
+          "type": "text"
+        },
+        "widowed": {
+          "name": "Widowed",
+          "type": "text"
+        },
+        "partner": {
+          "name": "With partner",
+          "description": "Relationship with partner",
+          "type": "choice",
+          "choices": {
+            "girlfriend": {
+              "name": "girlfriend",
+              "type": "text"
+            },
+            "boyfriend": {
+              "name": "boyfriend",
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
