@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  ask: {
+  predict: {
     type: 'post',
     handler: async ({ form, fastify }) => {
       const chat = fastify.openai.createChat();

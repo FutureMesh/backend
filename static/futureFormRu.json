@@ -1,0 +1,124 @@
+{
+  "name": "Прогноз на будущее",
+  "fields": [
+    {
+      "name": "Имя",
+      "description": "Полное имя человека",
+      "type": "text"
+    },
+    {
+      "name": "Дата рождения",
+      "description": "Дата рождения человека",
+      "type": "date"
+    },
+    {
+      "name": "Пол",
+      "description": "Гендерная идентичность человека",
+      "type": "text"
+    },
+    {
+      "name": "Религия",
+      "description": "Религиозные убеждения человека",
+      "type": "choice",
+      "choices": {
+        "Christian": {
+          "name": "Христианин",
+          "type": "text"
+        },
+        "Muslim": {
+          "name": "Мусульманин",
+          "type": "text"
+        },
+        "Hindu": {
+          "name": "Индуист",
+          "type": "text"
+        },
+        "Buddhist": {
+          "name": "Буддист",
+          "type": "text"
+        },
+        "Jewish": {
+          "name": "Еврей",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Другое",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Образование",
+      "description": "Образование человека",
+      "type": "choice",
+      "choices": {
+        "School": {
+          "name": "Школа",
+          "type": "text"
+        },
+        "University/College": {
+          "name": "Какова ваша специализация?",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Хобби и интересы",
+      "description": "Деятельность, которой человек занимается в свободное время",
+      "type": "input"
+    },
+    {
+      "name": "Национальность",
+      "type": "text",
+      "description": "Национальность человека"
+    },
+    {
+      "name": "Страна",
+      "description": "Место жительства",
+      "type": "text"
+    },
+    {
+      "name": "Характер",
+      "description": "Описание характера",
+      "type": "input"
+    },
+    {
+      "name": "Отношения",
+      "description": "Отношения с другими людьми",
+      "type": "choice",
+      "choices": {
+        "single": {
+          "name": "Одинок",
+          "type": "text"
+        },
+        "married": {
+          "name": "Замужем/Женат",
+          "type": "text"
+        },
+        "divorced": {
+          "name": "Разведен",
+          "type": "text"
+        },
+        "widowed": {
+          "name": "Вдовец/Вдова",
+          "type": "text"
+        },
+        "partner": {
+          "name": "В отношениях с партнером",
+          "description": "Отношения с партнером",
+          "type": "choice",
+          "choices": {
+            "girlfriend": {
+              "name": "девушка",
+              "type": "text"
+            },
+            "boyfriend": {
+              "name": "парень",
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
