@@ -21,4 +21,7 @@ dotenv.config();
   // Run the server!
   await fastify.listen({ port: config.environment.port });
   fastify.log.info(`API on port ${config.environment.port}`);
+
+  // TODO
+  // - now static runs without prefix -> /static prefix
 })();

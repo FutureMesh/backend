@@ -9,7 +9,7 @@
     {
       "name": "Birthdate",
       "description": "Date of birth of the person",
-      "type": "date"
+      "type": "text"
     },
     {
       "name": "Gender",
@@ -65,7 +65,7 @@
     {
       "name": "Hobbies and Interests",
       "description": "Activities the person enjoys during leisure time",
-      "type": "input"
+      "type": "text"
     },
     {
       "name": "Nationality",
