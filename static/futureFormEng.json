@@ -14,7 +14,21 @@
     {
       "name": "Gender",
       "description": "Gender identity of the person",
-      "type": "text"
+      "type": "choice",
+      "choices": {
+        "Male": {
+          "name": "Male",
+          "type": "text"
+        },
+        "Female": {
+          "name": "Female",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Don't want to say",
+          "type": "text"
+        }
+      }
     },
     {
       "name": "Religion",
@@ -43,6 +57,7 @@
         },
         "Other": {
           "name": "Other",
+          "description": "Write your religion: ",
           "type": "input"
         }
       }
@@ -57,8 +72,9 @@
           "type": "text"
         },
         "University/College": {
-          "name": "What is your specialization?",
-          "type": "imput"
+          "description": "Describe your specialization: ",
+          "name": "University/College",
+          "type": "input"
         }
       }
     },
@@ -74,13 +90,13 @@
     },
     {
       "name": "Country",
-      "description": "Place of residence",
+      "description": "Place of residence or your actual location",
       "type": "text"
     },
     {
       "name": "Character",
       "description": "Describtion of the character",
-      "type": "input"
+      "type": "text"
     },
     {
       "name": "Relationships",

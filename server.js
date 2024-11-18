@@ -19,6 +19,7 @@ dotenv.config();
   http.init(fastify, api);
 
   // Run the server!
+  fastify.log.info({ api });
   await fastify.listen({ port: config.environment.port });
   fastify.log.info(`API on port ${config.environment.port}`);
 
