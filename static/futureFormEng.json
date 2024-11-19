@@ -69,7 +69,8 @@
       "choices": {
         "School": {
           "name": "School",
-          "type": "text"
+          "description": "In which class you are?",
+          "type": "input"
         },
         "University/College": {
           "description": "Describe your specialization: ",
