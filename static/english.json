@@ -1,0 +1,236 @@
+{
+  "name": "Future Prediction",
+  "fields": [
+    {
+      "name": "Name",
+      "description": "What is your full name?",
+      "type": "text"
+    },
+    {
+      "name": "Birthdate",
+      "description": "When is your birthday?",
+      "type": "text"
+    },
+    {
+      "name": "Gender",
+      "description": "What is your gender?",
+      "type": "choice",
+      "choices": {
+        "Male": {
+          "name": "Male",
+          "type": "text"
+        },
+        "Female": {
+          "name": "Female",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "How do you identify?",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Religion",
+      "description": "Religious beliefs (if any)",
+      "type": "choice",
+      "choices": {
+        "Christian": {
+          "name": "Christian",
+          "type": "text"
+        },
+        "Muslim": {
+          "name": "Muslim",
+          "type": "text"
+        },
+        "Hindu": {
+          "name": "Hindu",
+          "type": "text"
+        },
+        "Buddhist": {
+          "name": "Buddhist",
+          "type": "text"
+        },
+        "Jewish": {
+          "name": "Jewish",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "Write your religion: ",
+          "type": "input"
+        },
+        "None": {
+          "name": "None",
+          "type": "text"
+        }
+      }
+    },
+    {
+      "name": "Hobbies",
+      "description": "What are your hobbies and interests?",
+      "type": "text"
+    },
+    {
+      "name": "Character Traits",
+      "description": "Describe your key personality traits or behavioral tendencies",
+      "type": "choice",
+      "choices": {
+        "Introverted": {
+          "name": "Introverted",
+          "type": "text"
+        },
+        "Extroverted": {
+          "name": "Extroverted",
+          "type": "text"
+        },
+        "Ambivert": {
+          "name": "Ambivert (a mix of introvert and extrovert)",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "Describe your character traits:",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Personality",
+      "description": "How can you describe your personality?",
+      "type": "text"
+    },
+    {
+      "name": "Health and Lifestyle",
+      "description": "Your health or lifestyle habits",
+      "type": "choice",
+      "choices": {
+        "Active": {
+          "name": "Active",
+          "type": "text"
+        },
+        "Moderately active": {
+          "name": "Moderately active",
+          "type": "text"
+        },
+        "Sedentary": {
+          "name": "Sedentary",
+          "type": "text"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "Describe your health or lifestyle:",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Dream",
+      "description": "Do you have some dream or goal in life?",
+      "type": "text"
+    },
+    {
+      "name": "Relationship Status",
+      "description": "Your current relationship status",
+      "type": "choice",
+      "choices": {
+        "Single": {
+          "name": "Single",
+          "type": "text"
+        },
+        "Married": {
+          "name": "Married",
+          "type": "text"
+        },
+        "In a relationship": {
+          "name": "In a relationship",
+          "description": "Describe your relationship (e.g., boyfriend, girlfriend, partner):",
+          "type": "input"
+        },
+        "Divorced": {
+          "name": "Divorced",
+          "type": "text"
+        },
+        "Widowed": {
+          "name": "Widowed",
+          "type": "text"
+        }
+      }
+    },
+    {
+      "name": "Nationality",
+      "type": "text",
+      "description": "Nationality of the person"
+    },
+    {
+      "name": "Country",
+      "description": "Place of residence or your actual location",
+      "type": "text"
+    },
+    {
+      "name": "Education Level",
+      "description": "Highest level of education completed or currently pursuing",
+      "type": "choice",
+      "choices": {
+        "High School": {
+          "name": "High School",
+          "description": "If in school, write your current grade/class:",
+          "type": "input"
+        },
+        "University/College": {
+          "name": "University/College",
+          "description": "Write your degree or field of study:",
+          "type": "input"
+        },
+        "Postgraduate": {
+          "name": "Postgraduate",
+          "description": "Write your degree or specialization:",
+          "type": "input"
+        },
+        "Vocational/Technical": {
+          "name": "Vocational/Technical",
+          "description": "Specify your area of training:",
+          "type": "input"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "Describe your educational background:",
+          "type": "input"
+        }
+      }
+    },
+    {
+      "name": "Career/Work",
+      "description": "Current job or career aspirations",
+      "type": "choice",
+      "choices": {
+        "Employed": {
+          "name": "Employed",
+          "description": "Write your current job/role:",
+          "type": "input"
+        },
+        "Self-employed": {
+          "name": "Self-employed",
+          "description": "Write the nature of your business or work:",
+          "type": "input"
+        },
+        "Student": {
+          "name": "Student",
+          "description": "Describe your field of study or future career plans:",
+          "type": "input"
+        },
+        "Unemployed": {
+          "name": "Unemployed",
+          "description": "Write your career goals or aspirations:",
+          "type": "input"
+        },
+        "Other": {
+          "name": "Other",
+          "description": "Describe your current career/work situation:",
+          "type": "input"
+        }
+      }
+    }
+  ]
+}
