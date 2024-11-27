@@ -20,7 +20,10 @@ dotenv.config();
 
   // Run the server!
   fastify.log.info({ api });
-  await fastify.listen({ port: config.environment.port });
+  await fastify.listen({
+    port: config.environment.port,
+    host: config.environment.host,
+  });
   fastify.log.info(`API on port ${config.environment.port}`);
 
   // TODO
