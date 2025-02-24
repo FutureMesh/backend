@@ -20,7 +20,7 @@
     "@fastify/session": "^10.9.0",
     "@fastify/static": "^7.0.4",
     "@fastify/websocket": "^10.0.1",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "fastify": "^4.28.1",
     "fastify-plugin": "^4.5.1",
     "mongoose": "^8.5.3",
@@ -28,10 +28,8 @@
     "universal-llm": "github:Universal-Code-Modules/universal-llm"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "nodemon": "^3.1.4",
-    "prettier": "^3.0.0"
+    "eslint": "^9.20.1",
+    "eslint-config-metarhia": "^9.1.1",
+    "prettier": "^3.4.2"
   }
 }
