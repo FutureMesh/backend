@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . && prettier -c \"**/*.js\"",
     "fmt": "prettier --write \"**/*.js\"",
-    "start": "node --env-file=.env.local server.js",
+    "start": "node --env-file=.env server.js",
     "dev": "node --env-file=.env.development.local server.js"
   },
   "keywords": [],
