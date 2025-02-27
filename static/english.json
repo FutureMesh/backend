@@ -7,13 +7,18 @@
       "type": "text"
     },
     {
-      "name": "Birthdate",
-      "description": "When's your birthday? 🎉",
+      "name": "Age",
+      "description": "How old are you? 🎉",
+      "type": "text"
+    },
+    {
+      "name": "sign of the zodiac",
+      "description": "What's your zodiac sign? 🎉",
       "type": "text"
     },
     {
       "name": "Gender",
-      "description": "How do you identify? 🌈",
+      "description": "How do you identify?",
       "type": "choice",
       "choices": {
         "Male": {
@@ -98,12 +103,22 @@
     },
     {
       "name": "Personality",
-      "description": "How would you describe your vibe? 😄",
+      "description": "How would you describe yourself? 😄",
+      "type": "text"
+    },
+    {
+      "name": "Person issues",
+      "description": "Do you have some issues in your life? Maybe something bother you? 😄",
+      "type": "text"
+    },
+    {
+      "name": "Dreams and Goals",
+      "description": "Do you have a dream or maybe you want to imporove something in your life? 🌟",
       "type": "text"
     },
     {
       "name": "Health and Lifestyle",
-      "description": "How do you take care of yourself? 🏃‍♂️",
+      "description": "How do you take care of yourself? 🏃",
       "type": "choice",
       "choices": {
         "Active": {
@@ -126,8 +141,18 @@
       }
     },
     {
-      "name": "Dream",
-      "description": "What's your big dream or goal in life? 🌟",
+      "name": "Opinion about health",
+      "description": "Do you feel yourself healthy and good? 🌟",
+      "type": "text"
+    },
+    {
+      "name": "Addictions",
+      "description": "Do you have some addictions? 🤫",
+      "type": "text"
+    },
+    {
+      "name": "Opinion about Talent",
+      "description": "What are you particularly good at? you have thanates",
       "type": "text"
     },
     {
@@ -137,7 +162,18 @@
       "choices": {
         "Single": {
           "name": "Single",
-          "type": "text"
+          "type": "choice",
+          "description": "Are you looking for a relationship? 🤔",
+          "choices": {
+            "no": {
+              "name": "Feel good alone",
+              "type": "text"
+            },
+            "yes": {
+              "name": "Looking for a relationship",
+              "type": "text"
+            }
+          }
         },
         "Married": {
           "name": "Married",
@@ -145,7 +181,7 @@
         },
         "In a relationship": {
           "name": "In a relationship",
-          "description": "How's it going with your partner? 😊",
+          "description": "Congratulations! How's it going with your partner? 😊",
           "type": "input"
         },
         "Divorced": {
@@ -181,16 +217,6 @@
         "University/College": {
           "name": "University/College",
           "description": "What are you studying or what degree are you pursuing? 📚",
-          "type": "input"
-        },
-        "Postgraduate": {
-          "name": "Postgraduate",
-          "description": "What degree or specialization are you working on? 🎓",
-          "type": "input"
-        },
-        "Vocational/Technical": {
-          "name": "Vocational/Technical",
-          "description": "What area are you training in? 🔧",
           "type": "input"
         },
         "Other": {
