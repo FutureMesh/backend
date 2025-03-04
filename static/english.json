@@ -162,18 +162,8 @@
       "choices": {
         "Single": {
           "name": "Single",
-          "type": "choice",
-          "description": "Are you looking for a relationship? 🤔",
-          "choices": {
-            "no": {
-              "name": "Feel good alone",
-              "type": "text"
-            },
-            "yes": {
-              "name": "Looking for a relationship",
-              "type": "text"
-            }
-          }
+          "type": "input",
+          "description": "Are you looking for a relationship? 🤔"
         },
         "Married": {
           "name": "Married",
