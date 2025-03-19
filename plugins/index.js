@@ -14,6 +14,8 @@ module.exports = (fastify) => {
   //      secret: 'a secret with minimum length of 32 characters'
   //    });
 
+  fastify.register(require('./session.js'));
+
   fastify.register(corsPlugin, { origin: '*' });
   fastify.register(formbodyPlugin);
   fastify.register(fastifyStaticPlugin, {
